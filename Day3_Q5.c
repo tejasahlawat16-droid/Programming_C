@@ -19,7 +19,7 @@ int main() {
     float celcius;
     printf("Enter degree  in celsius :");
     scanf("%f",&celcius);
-    float farhrenheit=(celcius*9/5)+32;
-    printf("celsius to Fahrenheit is : %f",farhrenheit);
+    float fahrenheit=(celcius*9/5)+32;
+    printf("celsius to Fahrenheit is : %f",fahrenheit);
     return 0;
 }
