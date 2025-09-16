@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "Day13_Q25.C": "cpp"
+        "Day13_Q25.C": "cpp",
+        "stdio.h": "c"
     }
 }
