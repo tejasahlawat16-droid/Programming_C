@@ -5,17 +5,17 @@
 
 int main() {
     char str[100];
-    int length = 0, i, flag = 0;
+    int i, length = 0, flag = 0;
 
     printf("Enter a string: ");
-    gets(str);  // for simplicity; prefer fgets() in real programs
+    gets(str);  // Note: unsafe, prefer fgets() in real use
 
     // Find string length manually
     while (str[length] != '\0') {
         length++;
     }
 
-    // Check if the string is palindrome
+    // Compare characters from both ends
     for (i = 0; i < length / 2; i++) {
         if (str[i] != str[length - i - 1]) {
             flag = 1;
@@ -30,3 +30,5 @@ int main() {
 
     return 0;
 }
+
+
